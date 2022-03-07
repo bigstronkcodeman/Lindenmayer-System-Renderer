@@ -3,7 +3,8 @@ Design, draw, and explore custom L-Systems
 
 A Lindenmayer System is a type of formal grammar, consisting of an alphabet of symbols, a set of production rules, and a starting state (string) which is referred to as the "axiom". These production rules are applied iteratively, starting with the axiom, some specified number of times. Then, the resulting string is interpreted as a set of instructions for drawing. Using these systems, we can render a vast collection of different types of beautiful fractal images. The possibilities really are endless!
 
-```Rules:
+The rules for interpreting symbols:
+```
 Character        Meaning
    F	         Move forward by line length drawing a line
    f	         Move forward by line length without drawing a line
