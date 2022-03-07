@@ -55,3 +55,4 @@ bool GraphicsViewZoom::eventFilter(QObject *object, QEvent *event) {
   Q_UNUSED(object)
   return false;
 }
+
