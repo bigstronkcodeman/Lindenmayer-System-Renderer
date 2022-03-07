@@ -1,9 +1,15 @@
 # Lindenmayer System Renderer
 Design, draw, and explore custom L-Systems
 
-A Lindenmayer System is a type of formal grammar, consisting of an alphabet of symbols, a set of production rules, and a starting state (string) which is referred to as the "axiom". These production rules are applied iteratively, starting with the axiom, some specified number of times. Then, the resulting string is interpreted as a set of instructions for drawing. Using these systems, we can render a vast collection of different types of beautiful fractal images. The possibilities really are endless!
+A Lindenmayer System is a type of formal grammar, consisting of an alphabet of symbols, a set of production rules, and a starting state (string) which is referred to as the "axiom". These production rules are applied iteratively, starting with the axiom, some specified number of times. Then, the resulting string is interpreted as a set of instructions for drawing. 
 
-The rules for interpreting symbols:
+Using these systems, we can render a vast collection of different types of beautiful fractal images.
+
+This tool, made with Qt, allows you to render your own custom L-Systems, then zoom around and explore the structures in detail.
+
+![image](https://user-images.githubusercontent.com/43645849/156963544-95a8ad4b-d61e-48be-86b6-9b9746c5138d.png)
+
+**Geometric interpretation of symbols:**
 ```
 Character        Meaning
    F	         Move forward by line length drawing a line
@@ -16,8 +22,6 @@ Character        Meaning
    #	         Increment the line width by line width increment
    !	         Decrement the line width by line width increment
    @	         Draw a dot with line width radius
-   {	         Open a polygon
-   }	         Close a polygon and fill it with fill colour
    >	         Multiply the line length by the line length scale factor
    <	         Divide the line length by the line length scale factor
    &	         Swap the meaning of + and -
@@ -25,4 +29,11 @@ Character        Meaning
    )	         Increment turning angle by turning angle increment
 ```
 
-![lich](https://user-images.githubusercontent.com/43645849/156948885-6cd1cdfc-ca72-489d-91c5-2089e2707d9f.png)
+**Some example screenshots:**
+
+![woah1](https://user-images.githubusercontent.com/43645849/156958006-e1ac5227-9fa2-4c1c-b0d1-3327682ecdd2.png)
+
+![Screenshot from 2022-03-06 20-52-13](https://user-images.githubusercontent.com/43645849/156960699-bd093453-6c57-4bb2-998c-85e1d2c0efc3.png)
+
+![image](https://user-images.githubusercontent.com/43645849/156961101-af5eb71f-48af-4930-b607-15949eb640a5.png)
+
