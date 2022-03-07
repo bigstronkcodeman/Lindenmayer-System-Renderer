@@ -4,7 +4,7 @@ A Lindenmayer System is a type of formal grammar, consisting of an alphabet of s
 
 Using these systems, we can render a vast collection of different types of beautiful fractal images.
 
-This tool, made with Qt, allows you to render your own custom L-Systems, then zoom around and explore the structures in detail.
+This tool, written in C++ with Qt, allows you to render your own custom L-Systems, then zoom around and explore the structures in detail.
 
 ![image](https://user-images.githubusercontent.com/43645849/156964882-408d6db4-6ba3-4f64-b2d6-3aefc590eafb.png)
 
