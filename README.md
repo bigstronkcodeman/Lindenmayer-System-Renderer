@@ -6,7 +6,7 @@ Using these systems, we can render a vast collection of different types of beaut
 
 This tool, made with Qt, allows you to render your own custom L-Systems, then zoom around and explore the structures in detail.
 
-![image](https://user-images.githubusercontent.com/43645849/156963544-95a8ad4b-d61e-48be-86b6-9b9746c5138d.png)
+![image](https://user-images.githubusercontent.com/43645849/156964882-408d6db4-6ba3-4f64-b2d6-3aefc590eafb.png)
 
 # Geometric interpretation of symbols:
 ```
@@ -36,4 +36,4 @@ Character        Meaning
 
 ![image](https://user-images.githubusercontent.com/43645849/156961101-af5eb71f-48af-4930-b607-15949eb640a5.png)
 
-and infinitely many more!
+and infinitely many more...
