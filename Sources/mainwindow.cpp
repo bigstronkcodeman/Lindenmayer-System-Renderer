@@ -225,7 +225,7 @@ void MainWindow::add_rule_entry(const QChar& c, const QString& s) {
     char_textbox->setAlignment(Qt::AlignCenter);
     char_textbox->setMaxLength(1);
     char_textbox->setMaximumWidth(20);
-    char_textbox->setText("");
+    char_textbox->setText(c);
 
     get_rule_form_layout()->addRow(char_textbox, rule_textbox);
 }
