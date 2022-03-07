@@ -1,5 +1,4 @@
 # Lindenmayer System Renderer
-Design, draw, and explore custom L-Systems
 
 A Lindenmayer System is a type of formal grammar, consisting of an alphabet of symbols, a set of production rules, and a starting state (string) which is referred to as the "axiom". These production rules are applied iteratively, starting with the axiom, some specified number of times. Then, the resulting string is interpreted as a set of instructions for drawing. 
 
@@ -9,7 +8,7 @@ This tool, made with Qt, allows you to render your own custom L-Systems, then zo
 
 ![image](https://user-images.githubusercontent.com/43645849/156963544-95a8ad4b-d61e-48be-86b6-9b9746c5138d.png)
 
-**Geometric interpretation of symbols:**
+# Geometric interpretation of symbols:
 ```
 Character        Meaning
    F	         Move forward by line length drawing a line
@@ -29,7 +28,7 @@ Character        Meaning
    )	         Increment turning angle by turning angle increment
 ```
 
-**Some example screenshots:**
+# Some example screenshots:
 
 ![woah1](https://user-images.githubusercontent.com/43645849/156958006-e1ac5227-9fa2-4c1c-b0d1-3327682ecdd2.png)
 
@@ -37,3 +36,4 @@ Character        Meaning
 
 ![image](https://user-images.githubusercontent.com/43645849/156961101-af5eb71f-48af-4930-b607-15949eb640a5.png)
 
+and infinitely many more!
