@@ -1,14 +1,14 @@
 # Lindenmayer System Renderer
 Design, draw, and explore custom L-Systems
 
-Rules:
+```Rules:
 Character        Meaning
    F	         Move forward by line length drawing a line
    f	         Move forward by line length without drawing a line
    +	         Turn left by turning angle
    -	         Turn right by turning angle
    |	         Reverse direction (ie: turn by 180 degrees)
-   \[	         Push current drawing state onto stack
+   [	         Push current drawing state onto stack
    ]	         Pop current drawing state from the stack
    #	         Increment the line width by line width increment
    !	         Decrement the line width by line width increment
@@ -20,5 +20,6 @@ Character        Meaning
    &	         Swap the meaning of + and -
    (	         Decrement turning angle by turning angle increment
    )	         Increment turning angle by turning angle increment
+```
 
 ![lich](https://user-images.githubusercontent.com/43645849/156948885-6cd1cdfc-ca72-489d-91c5-2089e2707d9f.png)
