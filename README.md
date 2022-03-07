@@ -1,6 +1,6 @@
 # Lindenmayer System Renderer
 
-A Lindenmayer System is a type of formal grammar, consisting of an alphabet of symbols, a set of production (substitution) rules, and a starting state (string) which is referred to as the "axiom". These production rules are applied iteratively, starting with the axiom. Then, the resulting string is interpreted as a set of instructions for drawing. 
+A Lindenmayer System is a type of formal grammar, consisting of an alphabet of symbols, a set of production (substitution) rules, and a starting state (some string) which is referred to as the "axiom". These production rules are applied iteratively, starting with the axiom. Then, the resulting string is interpreted as a set of instructions for drawing. 
 
 Using these systems, we can render a vast collection of different types of beautiful fractal images.
 
